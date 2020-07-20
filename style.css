@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: light;
+}
+
+.container {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+}
+.container h1 {
+  margin: 0;
+}
+.container .button-holder {
+  text-align: left;
+}
+.container button {
+  margin: 5px 0;
+  padding: 10px 20px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.container .green {
+  background: #732392;
+}
+.container .purple {
+  background: red;
+}
+.container textarea {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgray;
+  margin-top: 30px;
+}
+.container pre {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.container #result {
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid lightgray;
+}
